@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+rewritecond %{http_host} ^localhost [nc]
+rewriterule ^(.*)$ http://www.domain.com/$1 [r=301,nc]

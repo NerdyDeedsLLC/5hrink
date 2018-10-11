@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "LoveYaLikeASister";
+
+  src: url("/public/fonts/LoveYaLikeASister.svg") format("svg"), /* Legacy iOS */
+       /*url("/public/fonts/LoveYaLikeASister.woff2") format("woff2"), /* Modern Browsers */*/
+  	   url("/public/fonts/LoveYaLikeASister.woff") format("woff"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1, p ,div, h2{
+	font-family:LoveYaLikeASister;
+}

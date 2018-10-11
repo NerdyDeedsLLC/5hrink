@@ -1,0 +1,33 @@
+{
+  "name": "nodesite",
+  "version": "1.0.0",
+  "description": "5hr.ink! The Web's first disappearing-ink URL shortener!",
+  "main": "nodefs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-fn": "0.0.3",
+    "gulp-run-command": "0.0.9",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.1",
+    "known-css-properties": "^0.5.0",
+    "minimatch": "^3.0.2",
+    "sass": "^1.14.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.0",
+    "gulp-changed": "^3.2.0",
+    "gulp-cli": "^2.0.1",
+    "gulp-notify": "^3.2.0",
+    "gulp-print": "^5.0.0",
+    "gulp-streamify": "^1.0.2"
+  }
+}
