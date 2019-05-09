@@ -28,6 +28,7 @@
     "gulp-cli": "^2.0.1",
     "gulp-notify": "^3.2.0",
     "gulp-print": "^5.0.0",
+    "gulp-shell": "^0.6.5",
     "gulp-streamify": "^1.0.2"
   }
 }
